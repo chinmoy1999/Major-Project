@@ -317,7 +317,7 @@ function insertItemPrice(html,
     return insertProperty(html, pricePropName, "");
   }
 
-  priceValue = "Rs" + priceValue.toFixed(2);
+  priceValue = "Rs" + priceValue.toFixed(4);
   html = insertProperty(html, pricePropName, priceValue);
   return html;
 }
